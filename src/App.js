@@ -14,7 +14,7 @@ function App() {
         if (busqueda === '') return;
 
         const consultarAPI = async () => {
-            const imagenesPorPagina = 32;
+            const imagenesPorPagina = 20;
             const key = 'DwqDGxtVsNcf71X-KjEo_n61jtt1yeXZ92UEdRv1iOQ'
             const url = `https://api.unsplash.com/search/photos?page=${paginaActual}&per_page=${imagenesPorPagina}&query=${busqueda}&client_id=${key}`
 
